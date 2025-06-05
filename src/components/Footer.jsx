@@ -1,8 +1,11 @@
 export default function Footer() {
   return (
     <footer className="footer">
-      <small>&copy: Copyright by pschonffeldt. All rights reserved.</small>
-      <small>Last cheked limits: 17 days ago</small>
+      <small>
+        &copy; Copyright de <a href="https://pschonffeldt.dev/">pschonffeldt</a>
+        . Todos los derechos reservados.
+      </small>
+      <small>Últimos revisión de límites: hace 2 días</small>
     </footer>
   );
 }

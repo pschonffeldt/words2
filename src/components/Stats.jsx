@@ -1,8 +1,8 @@
 export default function Stats({ stats }) {
   return (
     <section className="stats">
-      <Stat number={stats.numberOfWords} label="Words" />
-      <Stat number={stats.numberOfCharacters} label="Characters" />
+      <Stat number={stats.numberOfWords} label="Palabras" />
+      <Stat number={stats.numberOfCharacters} label="Caracteres" />
       <Stat number={stats.instagramCharactersLeft} label="Instagram" />
       <Stat number={stats.facebookCharactersLeft} label="Facebook" />
     </section>
